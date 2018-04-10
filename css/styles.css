@@ -1,34 +1,40 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+h/*tml {
+  background: white;
 }
-
-header{
-    height: 200px;
-}
-.nav-bar img{
-   object-fit: scale-down;
-}
-
-.nav-button{
-    padding: 75px ;
-}
-.btn{
-    
-}
-
-.stage{
-    padding: 0 0 0 100px;
-    display: flex;
-
-}
-
-.me{
-    height: 300px;
-}
-.me img{
-    object-fit: cover;
-
-}
-/*
-
 */
+.main-header {
+  height: 100px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.custom-button{
+  background-color: rgba(221, 195, 0148, 1);
+  color: white;
+}
+
+main{
+    background-color: snow;
+}
+
+}
+header img{
+  object-fit: cover;
+}
+
+section img{
+  width: 300px;
+  height: 300px;
+  object-fit: scale-down;
+}
+
+aside h1{
+    color:  #94B6DD;
+}
+aside h2{
+    color: rgba(221, 195, 148, 1);
+    text-shadow: 1px 1px 20px  #94B6DD;
+}
