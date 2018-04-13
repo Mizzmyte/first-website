@@ -5,15 +5,12 @@ height: 300px;
   background-position: 10%;
 }
 
-.main-header {
-  
-}
-
 .main-nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
+
 .custom-button{
   background-color: rgba(221, 195, 0148, 1);
   color: white;
