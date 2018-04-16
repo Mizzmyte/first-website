@@ -53,6 +53,7 @@ section img{
   box-shadow: 5px 5px 20px #5A4356;
 }
 
+
 aside{
     text-align: left;
 }
@@ -60,6 +61,15 @@ aside{
 aside h1{
     color: #5A4356;
     text-align: center;
+    transition: transform 5s ease 20s;
+}
+aside h1:hover{
+    background-color: deeppink;
+    height: max-content;
+    width: max-content;
+    border-radius: 20px;
+    padding: 10px;
+    
 }
 
 aside h2{
