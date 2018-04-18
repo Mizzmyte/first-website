@@ -1,5 +1,7 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
 body{
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Bangers', cursive;
 }
 
 .main-header {
@@ -80,7 +82,7 @@ font-size: 1.2em;
 .web h3{
     // font-family: 'Permanent Marker', cursive;
     text-shadow:1px 2px 2px rgba(248, 141, 59, 1);
-
+    
 }
 
 .tool{
