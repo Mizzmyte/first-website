@@ -1,5 +1,6 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+// sehr gut!
 $orange: rgba(248, 141, 59, 1);
 $brown: rgba(55, 45, 46, 1);
 $sand: rgba(211, 204, 178, 1);
@@ -17,9 +18,9 @@ body{
     text-align: center;
     padding: 100px 0 0 0;
     color: $brown;
-    text-shadow:1px 2px 2px $orange;
+    text-shadow: 1px 2px 2px $orange;
 }
-.main-header h1{
+.main-header h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 5em;
 }
@@ -40,7 +41,7 @@ body{
 
 main{
     height: 70vh;
-    
+
 }
 
 .main__section{
@@ -49,9 +50,11 @@ main{
     align-items: center;
     justify-content: center;
     margin: 50px 0 50px 0;
+    // bitte so: "padding: 0;" (keine Einheit bei null)
     padding: 0px;
 }
 
+// Den Code bitte sauber einrücken:
 .skill_btn{
 display: block;
 color: white;
@@ -61,6 +64,7 @@ font-size: 1.2em;
 text-shadow: 2px 2px 6px $brown;
 }
 
+// Sehr gut mit dem selector!
 .skill_btn li{
     background-color: $sand;
     display: inline-block;
@@ -85,7 +89,7 @@ text-shadow: 2px 2px 6px $brown;
 .web h3{
     // font-family: 'Permanent Marker', cursive;
     text-shadow:1px 2px 2px $orange;
-    
+
 }
 
 .tool{
