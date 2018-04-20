@@ -6282,12 +6282,17 @@ body {
   font-family: 'Permanent Marker', cursive;
   font-size: 5em; }
 
+.main-header h2 {
+  margin: 50px 0 120px 0;
+  margin-top: 80px; }
+
 .main-nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  margin-top: auto; }
+  padding: 40px;
+  margin-top: auto;
+  background-color: white; }
 
 .custom-button {
   background-color: #d3ccb2;
@@ -6303,7 +6308,7 @@ main {
   align-items: center;
   justify-content: center;
   margin: 50px 0 50px 0;
-  padding: 0px; }
+  padding: 0; }
 
 .skill_btn {
   display: block;
@@ -6329,7 +6334,7 @@ main {
   text-align: center;
   background-color: #c0ebe4;
   padding: 20px;
-  margin: 20px 10px 0 0;
+  margin: 0px 10px 0 0;
   height: 300px; }
 
 .web h3 {
@@ -6339,7 +6344,7 @@ main {
   text-align: center;
   background-color: #c0ebe4;
   padding: 20px;
-  margin: 20px 0 0 10px;
+  margin: 0px 0 0 10px;
   height: 300px; }
 
 .tool h3 {
@@ -6364,3 +6369,6 @@ main {
 .vita h4 {
   text-shadow: 1px 2px 2px #f88d3b;
   color: white; }
+
+footer {
+  background-color: #c0ebe4; }

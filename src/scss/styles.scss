@@ -24,12 +24,18 @@ body{
     font-size: 5em;
 }
 
+.main-header h2{
+    margin: 50px 0 120px 0;
+    margin-top: 80px;
+}
+
 .main-nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
   margin-top: auto;
+  background-color: white;
 }
 
 .custom-button{
@@ -40,7 +46,6 @@ body{
 
 main{
     height: 70vh;
-    
 }
 
 .main__section{
@@ -49,16 +54,16 @@ main{
     align-items: center;
     justify-content: center;
     margin: 50px 0 50px 0;
-    padding: 0px;
+    padding: 0;
 }
 
 .skill_btn{
-display: block;
-color: white;
-list-style: none;
-padding: 15px;
-font-size: 1.2em;
-text-shadow: 2px 2px 6px $brown;
+    display: block;
+    color: white;
+    list-style: none;
+    padding: 15px;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 6px $brown;
 }
 
 .skill_btn li{
@@ -79,20 +84,20 @@ text-shadow: 2px 2px 6px $brown;
     text-align: center;
     background-color:$sky;
     padding: 20px;
-    margin: 20px 10px 0 0;
+    margin: 0px 10px 0 0;
     height: 300px;
 }
+
 .web h3{
     // font-family: 'Permanent Marker', cursive;
     text-shadow:1px 2px 2px $orange;
-    
 }
 
 .tool{
     text-align: center;
     background-color:$sky;
     padding: 20px;
-    margin: 20px 0 0 10px;
+    margin: 0px 0 0 10px;
     height: 300px;
 }
 
@@ -124,4 +129,8 @@ text-shadow: 2px 2px 6px $brown;
 .vita h4{
     text-shadow: 1px 2px 2px $orange;
     color: white;
+}
+
+footer{
+    background-color: $sky;
 }
