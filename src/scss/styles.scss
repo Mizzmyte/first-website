@@ -13,17 +13,16 @@ $sky: rgba(192, 235, 228, 1);
     grid-gap: 10px;
     grid-template-columns: repeat(12, 1fr);
     //repeat(auto-fit, minmax(100px, 1fr));
-    grid-template-rows: 400px 100px 300px 400px 100px auto;
+    grid-template-rows: 400px 100px auto 200px;
+    justify-content: center;
     grid-template-areas: 
         "h h h h h h h h h h h h"
         "n n n n n n n n n n n n"
-        "w w w w w t t t t t t t"
-        "v v v v v v v v v v v v"
-        "k k k k k k k k k k k k"
+        "m m m m m m m m m m m m"
         "f f f f f f f f f f f f";
 }
 
-body{
+body {
     font-family: 'Special Elite', cursive;
 }
 
@@ -31,7 +30,7 @@ body{
     grid-area: h;
     background-color: $pool;
     text-align: center;
-    padding: 100px 0 0 0;
+    padding: 80px 0 0 0;
     color: $brown;
     text-shadow:1px 2px 2px $orange;
 }
@@ -43,10 +42,9 @@ body{
 
 .header h2{
     margin-top: 50px;
-
 }
 
-.nav {
+.head__nav {
   grid-area: n;
   text-align: center;
   justify-content: center;
@@ -78,8 +76,23 @@ body{
     border-radius: 5px;
 }
 
+main{
+    grid-area: m;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+    //repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: auto auto 100px;
+    grid-template-areas: 
+        "w w w w w w t t t t t t"
+        "v v v v v v v v v v v v"
+        "k k k k k k k k k k k k"  
+}
+
 .web{
-  grid-area: w;
+    grid-area: w;
     text-align: center;
     background-color:$sky;
     padding: 20px;
@@ -127,5 +140,10 @@ body{
 
 .kontakt {
   grid-area: k;
-  background-color: $pool;
+  background-color: $sand;
+}
+
+footer{
+    grid-area: f;
+    background-color: $orange;
 }
