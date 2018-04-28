@@ -1,5 +1,10 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+$orange: rgba(248, 141, 59, 1);
+$brown: rgba(55, 45, 46, 1);
+$sand: rgba(211, 204, 178, 1);
+$pool: rgba(143, 202, 206, 1);
+$sky: rgba(192, 235, 228, 1);
 
 .container {
     height: 100%;
@@ -134,11 +139,7 @@ body{
     color: white;
 }
 
-.kontakt{
+.kontakt {
   grid-area: k;
   background-color: $pool;
 }
-
-footer{
-  grid-area: f;
-    background-color: $sky;}
