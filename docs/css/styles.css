@@ -6274,8 +6274,10 @@ a.text-dark:hover, a.text-dark:focus {
   grid-gap: 10px;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 400px 100px auto 200px;
-  justify-content: center;
   grid-template-areas: "h h h h h h h h h h h h" "n n n n n n n n n n n n" "m m m m m m m m m m m m" "f f f f f f f f f f f f"; }
+  @media screen and (max-width: 600px) {
+    .container {
+      grid-template-rows: 200px 50px auto 100px; } }
 
 body {
   font-family: 'Special Elite', cursive; }
@@ -6287,25 +6289,41 @@ body {
   padding: 80px 0 0 0;
   color: #372d2e;
   text-shadow: 1px 2px 2px #f88d3b; }
+  @media screen and (max-width: 775px) {
+    .header {
+      padding: 10px 0 0 0; } }
 
 .header h1 {
   font-family: 'Permanent Marker', cursive;
   font-size: 5em; }
+  @media screen and (max-width: 775px) {
+    .header h1 {
+      font-size: 2em; } }
 
 .header h2 {
   margin-top: 50px; }
+  @media screen and (max-width: 775px) {
+    .header h2 {
+      font-size: 1.2em; } }
 
 .head__nav {
   grid-area: n;
   text-align: center;
   justify-content: center;
   margin-top: 30px; }
+  @media screen and (max-width: 775px) {
+    .head__nav {
+      margin-top: 5px; } }
 
 .custom-button {
   background-color: #d3ccb2;
   color: white;
   box-shadow: 2px 2px 10px #372d2e;
   margin: 0px 20px 0px 20px; }
+  @media screen and (max-width: 775px) {
+    .custom-button {
+      font-size: 0.5em;
+      margin: 0px 10px 0px 10px; } }
 
 .skill_btn {
   display: block;
@@ -6314,6 +6332,9 @@ body {
   padding: 15px;
   font-size: 1.2em;
   text-shadow: 2px 2px 6px #372d2e; }
+  @media screen and (max-width: 775px) {
+    .skill_btn {
+      font-size: 0.6em; } }
 
 .skill_btn li {
   background-color: #d3ccb2;
@@ -6322,6 +6343,10 @@ body {
   margin: 5px;
   padding: 2px 10px;
   border-radius: 5px; }
+  @media screen and (max-width: 775px) {
+    .skill_btn li {
+      margin: 2px;
+      padding: 2px 6px; } }
 
 main {
   grid-area: m;
@@ -6330,34 +6355,46 @@ main {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: auto auto 100px;
+  grid-template-rows: auto auto auto;
   grid-template-areas: "w w w w w w t t t t t t" "v v v v v v v v v v v v" "k k k k k k k k k k k k"; }
 
 .web {
   grid-area: w;
   text-align: center;
   background-color: #c0ebe4;
-  padding: 20px; }
+  padding: 20px 0; }
 
 .web h3 {
   text-shadow: 1px 2px 2px #f88d3b; }
+  @media screen and (max-width: 775px) {
+    .web h3 {
+      font-size: 1em; } }
 
 .tool {
   grid-area: t;
   text-align: center;
   background-color: #c0ebe4;
-  padding: 20px; }
+  padding: 20px 0; }
 
 .tool h3 {
   text-shadow: 1px 2px 2px #f88d3b; }
+  @media screen and (max-width: 775px) {
+    .tool h3 {
+      font-size: 1em; } }
 
 .social {
   text-align: center;
   text-shadow: 1px 2px 10px #f88d3b;
   border-radius: 5px; }
 
+.social li {
+  text-align: center; }
+
 .social h3 {
   text-shadow: 1px 2px 2px #f88d3b; }
+  @media screen and (max-width: 775px) {
+    .social h3 {
+      font-size: 1em; } }
 
 .vita {
   grid-area: v;
@@ -6368,6 +6405,17 @@ main {
 .vita h4 {
   text-shadow: 1px 2px 2px #f88d3b;
   color: white; }
+  @media screen and (max-width: 775px) {
+    .vita h4 {
+      font-size: 1em; } }
+
+@media screen and (max-width: 775px) {
+  .vita h5 {
+    font-size: 0.7em; } }
+
+@media screen and (max-width: 775px) {
+  .vita p {
+    font-size: 0.5em; } }
 
 .kontakt {
   grid-area: k;
@@ -6376,3 +6424,10 @@ main {
 footer {
   grid-area: f;
   background-color: #f88d3b; }
+  @media screen and (max-width: 775px) {
+    footer {
+      font-size: 0.5em; } }
+
+@media screen and (max-width: 775px) {
+  footer h2 {
+    font-size: 1.2em; } }
